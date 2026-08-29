@@ -1,0 +1,11 @@
+{
+  "title": "DS port website",
+  "description": "Showcases an entry-level data scientist's portfolio with projects, hackathons, publications, and live visitor analytics to attract opportunities and contacts.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
