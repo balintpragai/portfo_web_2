@@ -17,7 +17,7 @@ export default function App() {
         <About />
         <Hackathons />
         <Publications />
-        <Telemetry />
+        {/* <Telemetry /> */}
         <Contact />
       </main>
       <footer className="border-t border-hair/60">
