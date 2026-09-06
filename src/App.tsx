@@ -4,7 +4,6 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Hackathons from "./components/Hackathons";
 import Publications from "./components/Publications";
-import Telemetry from "./components/Telemetry";
 import Contact from "./components/Contact";
 
 export default function App() {
@@ -17,7 +16,6 @@ export default function App() {
         <About />
         <Hackathons />
         <Publications />
-        {/* <Telemetry /> */}
         <Contact />
       </main>
       <footer className="border-t border-hair/60">

@@ -3,7 +3,7 @@ import { ArrowRight, Download } from "lucide-react";
 const metrics = [
   { value: "30%", label: "Bug Reduction", sub: "Bosch Time-Series Pipeline" },
   { value: "40+", label: "Hours Automated", sub: "Simulation Scheduling · Coognit" },
-  { value: "1,000+", label: "Downloads", sub: "Pilot Game Launch" },
+  { value: "1,000+", label: "Downloads", sub: "Pilot Game Launch · Big Small Games" },
   { value: "Double", label: "MSc Degree", sub: "EIT Digital · Aalto & ELTE" },
 ];
 
@@ -19,35 +19,35 @@ export default function Hero() {
       <div className="relative mx-auto max-w-[1200px] px-5 md:px-8 pt-20 pb-16 md:pt-28 md:pb-20">
         <div className="inline-flex items-center gap-2 rounded-full border border-hair bg-white/[0.02] px-3 py-1 font-mono text-[11px] text-ink-dim mb-7">
           <span className="status-dot h-1.5 w-1.5 rounded-full bg-mint" />
-          Entry-level Data Scientist · Helsinki / Budapest
+          Data Scientist · Helsinki / Budapest
         </div>
 
         <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.05] max-w-4xl">
-          Engineering <span className="text-gradient">Data Pipelines</span>, Time-Series
-          Models, and <span className="text-gradient">Privacy-Preserving</span> Systems
+          Data should be <span className="text-gradient">Human-Centered</span>.
+          {/* Ethical data solutions can still be scalable, interpretable, and <span className="text-gradient">actionable</span>.  */}
         </h1>
 
         <p className="mt-6 max-w-2xl text-base md:text-lg text-ink-dim leading-relaxed">
           Recent MSc Data Science graduate (Aalto University &amp; Eötvös Loránd University)
-          specializing in scalable backend ingestion, mathematical optimization, and applied
+          specializing in ethical data practices, data analysis, and applied
           machine learning.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-3">
           <a
-            href="#projects"
-            className="glow-cyan group inline-flex items-center gap-2 rounded-lg bg-cyan px-5 py-3 text-sm font-semibold text-obsidian hover:bg-cyan/90 transition-colors"
-          >
-            Explore Projects
-            <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
-          </a>
-          <a
             href="/downloads/cv_balintpragai.pdf"
-            className="inline-flex items-center gap-2 rounded-lg border border-hair bg-white/[0.02] px-5 py-3 text-sm font-semibold text-ink hover:border-cyan/40 hover:text-cyan transition-colors"
+            className="glow-cyan group inline-flex items-center gap-2 rounded-lg bg-cyan px-5 py-3 text-sm font-semibold text-obsidian hover:bg-cyan/90 transition-colors"
             download="cv.pdf"
           >
             <Download size={16} />
             Download CV (PDF)
+          </a>
+          <a
+            href="#projects"
+            className="inline-flex items-center gap-2 rounded-lg border border-hair bg-white/[0.02] px-5 py-3 text-sm font-semibold text-ink hover:border-cyan/40 hover:text-cyan transition-colors"
+          >
+            Explore Projects
+            <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
           </a>
         </div>
 
