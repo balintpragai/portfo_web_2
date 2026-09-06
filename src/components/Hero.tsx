@@ -42,8 +42,9 @@ export default function Hero() {
             <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
           </a>
           <a
-            href="#"
+            href="/downloads/cv_balintpragai.pdf"
             className="inline-flex items-center gap-2 rounded-lg border border-hair bg-white/[0.02] px-5 py-3 text-sm font-semibold text-ink hover:border-cyan/40 hover:text-cyan transition-colors"
+            download="cv.pdf"
           >
             <Download size={16} />
             Download CV (PDF)
