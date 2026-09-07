@@ -1,6 +1,6 @@
 import { stack, jobs } from "../data";
 import { SectionHeader, Tag } from "./ui";
-import portrait from "@/imports/TalentExpo2025_18404.jpg";
+import portrait from "@/imports/CV_picture.jpg";
 
 export default function About() {
   return (
